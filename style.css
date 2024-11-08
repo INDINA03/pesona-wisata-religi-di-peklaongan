@@ -1,0 +1,96 @@
+/* Style dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004d40;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Destinasi */
+.destinasi {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.destinasi h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.destinasi-item {
+    margin-bottom: 20px;
+}
+
+.destinasi-item h3 {
+    font-size: 22px;
+    color: #004d40;
+}
+
+/* Galeri */
+.galeri {
+    padding: 50px 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.galeri-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
